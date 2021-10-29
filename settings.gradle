@@ -11,3 +11,4 @@ rootProject.name = "SampleLibraryApplication"
 include ':app'
 include ':SillySDK'
 include ':CustomDialog'
+include ':SuperSillySDK'
