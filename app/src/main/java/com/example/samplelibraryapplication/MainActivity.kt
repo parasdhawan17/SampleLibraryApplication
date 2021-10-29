@@ -14,5 +14,7 @@ class MainActivity : AppCompatActivity() {
         val text = sdk.whoAreYou()
 
         Toast.makeText(this,text,Toast.LENGTH_LONG).show()
+
+        sdk.scanCard(this)
     }
 }
