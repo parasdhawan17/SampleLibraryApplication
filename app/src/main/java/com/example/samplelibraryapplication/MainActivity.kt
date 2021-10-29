@@ -10,11 +10,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val sdk = SillySDK()
-        val text = sdk.whoAreYou()
-
-        Toast.makeText(this,text,Toast.LENGTH_LONG).show()
-
-        sdk.scanCard(this)
     }
 }
