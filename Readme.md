@@ -14,4 +14,6 @@ Step 2. Add the dependency
 	        implementation 'com.github.parasdhawan17.SampleLibraryApplication:silly-sdk:1.6'
           implementation 'com.github.parasdhawan17.SampleLibraryApplication:custom-dialog:1.6'
           implementation 'com.github.parasdhawan17.SampleLibraryApplication:super-silly-sdk:1.6'
+	  
+	  implementation 'com.github.parasdhawan17:SampleLibraryApplication:1.6'
 	}
